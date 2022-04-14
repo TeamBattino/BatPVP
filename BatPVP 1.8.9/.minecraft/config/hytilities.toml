@@ -1,0 +1,93 @@
+
+[general]
+
+	[general.general]
+		highlight_friends_in_tab = 0
+		hide_player_ranks_in_tab = false
+		hide_ping_in_tab = false
+		cleaner_tab_in_skyblock = false
+		auto_start = false
+
+	[general.entities]
+		hide_npcs_in_tab = false
+
+	[general.guilds]
+		broadcast_achievements = false
+		hide_guild_tags_in_tab = false
+		broadcast_levelup = false
+
+	[general.queue]
+		auto_queue_delay = 0
+		auto_queue = false
+
+[game]
+
+	[game.sound]
+		mute_housing_music = false
+
+	[game.visual]
+		hide_armour = false
+		game_countdown_timer = false
+		hide_armor = false
+		hardcore_hearts = false
+		pit_lag_reducer = false
+
+[lobby]
+
+	[lobby.general]
+		limbo_limiter = false
+
+	[lobby.entities]
+		hide_lobby_npcs = false
+
+	[lobby.gui]
+		hide_lobby_bossbars = false
+		mystery_box_star = false
+
+[chat]
+
+	[chat.guild]
+		guild_welcome_message = false
+
+	[chat.watchdog]
+		thank_watchdog = false
+
+	[chat.autocomplete]
+		auto-complete_play_commands = true
+
+	[chat.toggles]
+		trim_line_separators = false
+		cleaner_game_start_counter = false
+		remove_lobby_statuses = false
+		show_personal_mystery_box_rewards = false
+		limbo_play_helper = false
+		remove_gifts_message = false
+		"remove_friend/guild_statuses" = false
+		white_chat = false
+		remove_hype_limit_reminder = false
+		remove_game_announcements = false
+		remove_chat_emojis = false
+		remove_soul_well_announcements = false
+		remove_auto_activated_quest_messages = false
+		remove_bedwars_advertisements = false
+		remove_curse_of_spam_messages = false
+		remove_guild_motd = false
+		player_adblocker = false
+		remove_server_connected_messages = false
+		white_private_messages = false
+
+	[chat.restyler]
+		player_count_on_player_leave = false
+		player_count_before_player_name = false
+		short_channel_names = false
+		game_status_restyle = false
+		player_count_padding = false
+
+	[chat.parties]
+		remove_all_chat_message = false
+		chat_swapper_channel = 0
+		chat_swapper = true
+
+	[chat.shout]
+		shout_cooldown = false
+

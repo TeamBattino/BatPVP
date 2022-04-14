@@ -1,0 +1,10 @@
+{
+  "blur": true,
+  "button": true,
+  "textbox": true,
+  "favourites": [],
+  "whitelist": [],
+  "sortType": "WIDTH",
+  "filter": "ALL",
+  "theme": "NEW"
+}

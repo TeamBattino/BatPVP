@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.candy_cane",
+				"texture_width": 36,
+				"texture_height": 36,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "candy_cane",
+					"parent": "body",
+					"pivot": [2, 19, 2],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [0.5, 4, 2], "size": [3, 22, 3], "uv": [0, 0]},
+						{"origin": [0.5, 26, 2], "size": [9, 3, 3], "uv": [12, 0]},
+						{"origin": [6.5, 20, 2], "size": [3, 6, 3], "uv": [12, 6]}
+					]
+				}
+			]
+		}
+	]
+}

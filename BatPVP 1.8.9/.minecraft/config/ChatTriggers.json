@@ -1,0 +1,50 @@
+{
+  "autoUpdateModules": {
+    "value": true
+  },
+  "clearConsoleOnLoad": {
+    "value": true
+  },
+  "consoleBackgroundColor": {
+    "value": {
+      "value": -15395563,
+      "falpha": 0.0
+    }
+  },
+  "consoleFontSize": {
+    "value": "9"
+  },
+  "consoleForegroundColor": {
+    "value": {
+      "value": -3092272,
+      "falpha": 0.0
+    }
+  },
+  "consolePrettyFont": {
+    "value": true
+  },
+  "consoleTheme": {
+    "value": "default.dark"
+  },
+  "customTheme": {
+    "value": false
+  },
+  "moduleImportHelp": {
+    "value": true
+  },
+  "modulesFolder": {
+    "value": "./config/ChatTriggers/modules/"
+  },
+  "openConsoleOnError": {
+    "value": false
+  },
+  "printChatToConsole": {
+    "value": true
+  },
+  "showUpdatesInChat": {
+    "value": true
+  },
+  "threadedLoading": {
+    "value": true
+  }
+}

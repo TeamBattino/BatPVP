@@ -1,0 +1,66 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.red_dragon_wings",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "wing_left_1",
+					"parent": "body",
+					"pivot": [3, 21, 1],
+					"rotation": [-30, -30, 65],
+					"cubes": [
+						{"origin": [2, 20, 0], "size": [2, 16, 2], "uv": [41, 44]},
+						{"origin": [3.5, 20, 1], "size": [17, 16, 0], "uv": [2, 24]}
+					]
+				},
+				{
+					"name": "wing_left_2",
+					"parent": "wing_left_1",
+					"pivot": [3, 36, 1],
+					"cubes": [
+						{"origin": [3.5, 36, 1], "size": [17, 18, 0], "uv": [0, 0]},
+						{"origin": [2.5, 36, 0.5], "size": [1, 18, 1], "uv": [6, 43]},
+						{"origin": [-2.5, 34, 1], "size": [5, 5, 0], "uv": [43, 11]}
+					]
+				},
+				{
+					"name": "wing_right_1",
+					"parent": "body",
+					"pivot": [-3, 21, 1],
+					"rotation": [-30, 30, -65],
+					"cubes": [
+						{"origin": [-4, 20, 0], "size": [2, 16, 2], "uv": [41, 44], "mirror": true},
+						{"origin": [-20.5, 20, 1], "size": [17, 16, 0], "uv": [2, 24], "mirror": true}
+					]
+				},
+				{
+					"name": "wing_right_2",
+					"parent": "wing_right_1",
+					"pivot": [-3, 36, 1],
+					"cubes": [
+						{"origin": [-20.5, 36, 1], "size": [17, 18, 0], "uv": [0, 0], "mirror": true},
+						{"origin": [-3.5, 36, 0.5], "size": [1, 18, 1], "uv": [6, 43], "mirror": true},
+						{"origin": [-2.5, 34, 1], "size": [5, 5, 0], "uv": [43, 11], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

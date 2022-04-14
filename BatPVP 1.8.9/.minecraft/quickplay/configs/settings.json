@@ -1,0 +1,59 @@
+{
+  "instanceDisplayX": 0.5,
+  "instanceDisplayY": 0.05,
+  "primaryColor": {
+    "color": {
+      "value": -1,
+      "frgbvalue": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fvalue": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "chromaSpeed": 0.0
+  },
+  "secondaryColor": {
+    "color": {
+      "value": -5000269,
+      "frgbvalue": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "fvalue": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "falpha": 1.0
+    },
+    "chromaSpeed": 0.0
+  },
+  "blurGuiBackgrounds": true,
+  "fadeInGuis": true,
+  "transparentBackgrounds": false,
+  "gameLogoScale": 1.0,
+  "reverseScrollingDirection": false,
+  "anyKeyClosesGui": false,
+  "compactMainMenu": false,
+  "displayInstance": false,
+  "instanceOpacity": 1.0,
+  "displayInstanceWithChatOpen": true,
+  "instanceDisplayScale": "MEDIUM",
+  "gamePriorities": {},
+  "lobbyOneSwap": false,
+  "updateNotifications": true,
+  "redesignedLobbyCommand": true,
+  "partyModeDelay": 5.0,
+  "partyModeGui": true,
+  "ingameDailyReward": true,
+  "displayOwnGlyph": true,
+  "mainMenuYPadding": 60,
+  "partyModes": []
+}

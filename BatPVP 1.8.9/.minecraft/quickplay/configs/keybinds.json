@@ -1,0 +1,10 @@
+{
+  "keybinds": [
+    {
+      "name": "Open Main GUI",
+      "key": 47,
+      "className": "co.bugg.quickplay.client.gui.game.QuickplayGuiMainMenu",
+      "constructorParams": []
+    }
+  ]
+}

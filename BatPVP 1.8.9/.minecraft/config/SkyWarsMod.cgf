@@ -1,0 +1,88 @@
+# Configuration file
+
+"basic settings" {
+    S:"Bold Labels"=
+    B:Chroma=false
+    I:"Chroma Speed"=1
+    I:Color=16777215
+    B:"Daily Statistic Saving"=true
+    I:"Decimal Places"=8
+    B:"Hide Key"=true
+    S:"Hypixel API Key"=
+    I:"Label Color"=2
+    S:"Label Suffix"=: 
+    B:"Labymod Alternative Rendering"=false
+    I:"Progress Bar Color"=14
+    I:"Progress Bar Size"=12
+    S:"Session Name"=Session 
+    B:"Text Shadow"=false
+    B:Toggle=true
+    B:"US Number Formatting"=true
+}
+
+
+"bedwars settings" {
+    B:"B/L"=true
+    B:FKD=true
+    B:"K/D"=true
+    I:Scale=10
+    B:"Stats by Mode"=false
+    B:Toggle=true
+    B:"W/L"=true
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+
+"blitz settings" {
+    B:"K/D"=true
+    I:Scale=10
+    B:Toggle=true
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+
+"duels settings" {
+    B:"K/D"=true
+    I:Scale=10
+    B:"Stats by Mode"=false
+    B:Toggle=true
+    B:"W/L"=true
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+
+"quake settings" {
+    B:"K/D"=true
+    I:Scale=10
+    B:"Stats by Mode"=false
+    B:Toggle=true
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+
+"skywars settings" {
+    B:"K/D"=true
+    I:Scale=10
+    B:"Stats by Mode"=false
+    B:Toggle=true
+    B:"W/L"=true
+    B:"Win %"=false
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+
+"uhc settings" {
+    B:"K/D"=true
+    I:Scale=10
+    B:"Stats by Mode"=false
+    B:Toggle=true
+    I:X-Position=77
+    I:Y-Position=2
+}
+
+

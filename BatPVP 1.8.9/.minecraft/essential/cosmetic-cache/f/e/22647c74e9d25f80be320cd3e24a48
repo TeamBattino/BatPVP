@@ -1,0 +1,42 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ice_wings",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 18, 2]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 18, 2]
+				},
+				{
+					"name": "right_wing",
+					"parent": "body",
+					"pivot": [0, 18, 2],
+					"cubes": [
+						{"origin": [0, 17, 2], "size": [0, 12, 24], "pivot": [0, 18, 2], "rotation": [0, -45, 0], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "left_wing",
+					"parent": "body",
+					"pivot": [0, 18, 2],
+					"cubes": [
+						{"origin": [0, 17, 2], "size": [0, 12, 24], "pivot": [0, 18, 2], "rotation": [0, 45, 0], "uv": [1, 1], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

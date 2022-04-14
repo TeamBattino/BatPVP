@@ -1,0 +1,278 @@
+
+[bug_fixes]
+
+	[bug_fixes.general]
+		mouse_bind_fix = true
+		layers_in_tab = true
+		keep_shaders_on_perspective_change = true
+		parallax_fix = false
+		culling_fix = false
+		better_keybind_handling = true
+
+	[bug_fixes.security]
+		resource_exploit_fix = true
+
+	[bug_fixes.world]
+		sky_height = true
+
+	[bug_fixes.entities]
+		arrow_lighting = false
+
+	[bug_fixes.chat]
+		case_insensitive_commands = true
+		command_handling = true
+
+	[bug_fixes.screen]
+		reset_death_timers = true
+
+	[bug_fixes.rendering]
+		player_void_rendering = true
+		fluid_stitching = true
+		alex_arm_position = true
+
+	[bug_fixes.window]
+		fullscreen_fix = true
+
+	[bug_fixes.movement]
+		arm_rotation = true
+		head_rotations = true
+		mouse_delay_fix = true
+
+[miscellaneous]
+
+	[miscellaneous.general]
+		log_optimizer_amount = 30
+		remove_screen_bobbing = false
+		better_camera = true
+		crosshair_perspective = false
+		better_f1 = false
+		log_optimizer = false
+		"separate_sound_&_texture_reloading" = false
+		unfocused_sounds = 1.0
+		unfocused_fps = false
+		static_items = false
+		better_keybind_handling = true
+		unfocused_fps_amount = 60
+		remove_map_bobbing = false
+		disable_hotbar_scrolling = false
+
+	[miscellaneous.tab]
+		number_ping = true
+		toggle_tab = false
+
+	[miscellaneous.blocks]
+		remove_ground_foliage = false
+
+		[miscellaneous.blocks.1]
+			12_farm_selection_boxes = true
+
+	[miscellaneous.optifine]
+		render_hand_while_zoomed = false
+		smooth_scroll-to-zoom_animation = false
+		smooth_zoom_animation = false
+		toggle_to_zoom = false
+		zoom_smooth_camera = false
+		zoom_sensitivity = 1.0
+		smooth_zoom_function = 0
+		simplify_fps_counter = true
+		use_vanilla_metrics_renderer = true
+		zoom_adjustment = true
+		remove_smooth_camera_while_zoomed = false
+
+	[miscellaneous.overlays]
+		remove_water_overlay = false
+		disable_achievements = false
+		hide_fire_overlay_with_fire_resistance = false
+		remove_inverted_colors_from_crosshair = false
+		fire_overlay_opacity = 1.0
+		nausea_effect = false
+		fire_overlay_height = 0.0
+
+	[miscellaneous.rendering]
+		disable_breaking_particles = false
+		ridden_horse_opacity = 1.0
+		show_own_nametag = false
+		clean_view = false
+		clean_projectiles = false
+		hide_aura_on_invisible_withers = false
+		disable_text_shadow = false
+		translate_unknown_roman_numerals = true
+		numerical_enchantments = true
+		add_text_shadow_to_nametags = false
+		add_background_to_actionbar = false
+		smart_fullbright = true
+		alternate_text_shadow = false
+		fullbright = true
+		add_text_shadow_to_actionbar = false
+
+	[miscellaneous.window]
+		instant_fullscreen = false
+		"instant_fullscreen_(windows_only)" = false
+		windowed_fullscreen = false
+
+	[miscellaneous.field_of_view]
+		sprinting_fov = 1.0
+		slowness_fov = 1.0
+		fov_modifier = false
+		remove_water_fov = false
+		speed_fov = 1.0
+		bow_fov = 1.0
+
+[performance]
+
+	[performance.entity_rendering]
+		disable_attached_arrows = false
+		player_render_distance = 64
+		entity_render_distance = 64
+		disable_moving_arrows = false
+		passive_entity_render_distance = 64
+		disable_nametag_boxes = false
+		global_entity_render_distance = 64
+		disable_mapped_item_frames = false
+		disable_item_frames = false
+		unstacked_items = false
+		disable_grounded_arrows = false
+		entity_render_distance_toggle = false
+		disable_semitransparent_players = false
+		disable_skulls = false
+		hostile_entity_render_distance = 64
+		disable_armorstands = false
+		disable_enchantment_books = false
+
+	[performance.general]
+		disable_enchantment_glint = false
+		disable_gl_error_checking = true
+		disable_end_portals = false
+		optimized_resource_pack_discovery = true
+
+	[performance.world]
+		limit_chunk_updates = false
+		batch_model_rendering = true
+		disable_mob_spawning = false
+		remove_cloud_transparency = false
+		static_fog_color = true
+		low_animation_tick = true
+		instant_world_swapping = true
+		optimized_cloud_renderer = true
+		chunk_update_limit = 50
+		optimized_world_swapping = true
+
+	[performance.culling]
+		particle_culling = true
+		entity_culling_interval = 0
+		"don't_cull_armor_stand_nametags" = false
+		smart_entity_culling = true
+		entity_back-face_culling = false
+		"don't_cull_armorstand_nametags" = false
+		entity_culling = true
+		player_back-face_culling = false
+		"don't_cull_player_nametags" = false
+		"don't_cull_entity_nametags" = false
+		check_armorstand_rules = false
+
+	[performance.text_rendering]
+		cache_font_data = true
+		optimized_font_renderer = true
+
+	[performance.resources]
+		downscale_pack_images = true
+
+	[performance.particles]
+		static_particle_color = true
+		max_particle_limit = 4000
+
+	[performance.items]
+		item_searching = true
+		optimized_item_renderer = true
+
+[hidden]
+	custom_fps_limit = 0
+	labymod_moment = true
+
+	[hidden.hidden]
+		desired_scale_override = -1
+
+[screens]
+
+	[screens.general]
+		container_backgrounds = false
+		container_opacity = 1.0
+		gui_crosshair = false
+		clean_main_menu = true
+		skin_refresher = false
+		startup_notification = true
+		replace_open_to_lan = false
+		replaced_mods_warning = true
+		open_to_lan_replacement = 0
+		smart_disconnect = false
+		remove_container_background = false
+		name_history_style = 2
+
+	[screens.tab]
+		tab_height = true
+		tab_player_count = 80
+		custom_tab_opacity = false
+		tab_opacity = 1.0
+		set_tab_height = 10
+
+	[screens.combat_utilities]
+		damage_glance = true
+		item_count_glance = true
+		enchantment_glance = true
+		protection_percentage = true
+		projectile_protection_percentage = true
+
+	[screens.chat]
+		consecutive_compact_chat = false
+		cross_chat = true
+		remove_blank_messages = false
+		safe_chat_clicks = false
+		shift_chat = false
+		transparent_chat = false
+		transparent_chat_input_field = false
+		chat_position = false
+		anti_clear_chat = false
+		chat_timestamps = false
+		compact_chat_time = 60
+		chat_delay = 0
+		chat_keeper = true
+		chat_timestamps_style = 0
+		compact_chat = false
+		chat_timestamps_format = 0
+
+		[screens.chat.1]
+			11_chat_length = true
+
+	[screens.image_preview]
+		image_preview = true
+		image_preview_width = 0.5
+
+	[screens.inventory]
+		inventory_scale = 0
+		inventory_position = true
+		click_out_of_containers = false
+
+[experimental]
+
+	[experimental.hud_caching]
+		hud_caching = false
+
+[screenshots]
+
+	[screenshots.feedback]
+		upload_screenshot = true
+		delete_screenshot = true
+		no_feedback = false
+		open_screenshots_folder = true
+		favorite_screenshot = true
+		copy_screenshot = true
+		compact_response = false
+
+	[screenshots.general]
+		screenshot_manager = true
+		preview_time = 3
+		preview_scale = 1.0
+		screenshot_preview = false
+		preview_animation = 0
+		auto_copy_screenshot = false
+
